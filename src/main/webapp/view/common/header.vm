@@ -1,0 +1,18 @@
+<div id="in-sub-nav">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><a href="index.html"><i class="batch home"></i><br />主页</a></li>
+              <li><a href="paragraphs.html"><i class="batch quill"></i><br />CT检索</a></li>
+              <li><a href="faq.html"><i class="batch forms"></i><br />CT 分析</a></li>
+              <li><a href="users.html" class="active"><i class="batch users"></i><br />病人管理</a></li>
+			   <li><span class="label label-important pull-right">08</span><a href="stream.html"><i class="batch stream"></i><br />案例库</a></li>
+			   <li><a href="calendar.html"><i class="batch calendar"></i><br />日程</a></li>
+			   <li><span class="label label-important pull-right">04</span><a href="messages.html"><i class="batch plane"></i><br />消息</a></li>
+              <li><a href="settings.html"><i class="batch settings"></i><br />设置</a></li>
+            </ul>
+          </div>
+       </div>
+    </div>
+</div>

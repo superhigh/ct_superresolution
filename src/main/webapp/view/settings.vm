@@ -1,0 +1,161 @@
+    <div class="page">
+      <div class="page-container">
+<div class="container">
+  <div class="row">
+    <div class="span12 header">
+      <h4>Settings</h4>
+    </div>
+    <div class="span6">
+      <form class="form-horizontal" />
+        <div class="control-group">
+          <label for="inputEmail" class="control-label">Email </label>
+          <div class="controls">
+            <input id="inputEmail" type="text" placeholder="Email" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="inputCurrentPassword" class="control-label">Current Password </label>
+          <div class="controls">
+            <input id="inputCurrentPassword" type="password" placeholder="Current Password" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="inputPassword" class="control-label">Password </label>
+          <div class="controls">
+            <input id="inputPassword" type="password" placeholder="Password" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="inputPasswordAgain" class="control-label">Password Again</label>
+          <div class="controls">
+            <input id="inputPasswordAgain" type="password" placeholder="Password Again" />
+          </div>
+        </div>
+        <div class="control-group"> 
+          <div class="controls">
+            <button type="submit" class="btn">Save Changes</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="span6">
+      <p>If you want to change your email or password please remember to do these three things.</p>
+      <ul>
+        <li>The first thing you should do is this</li>
+        <li>The second thing is probably this</li>
+        <li>There isn't actually a third thing</li>
+      </ul>
+    </div>
+    <div class="span12 settings-group">
+      <h4 class="header">Profile</h4>
+    </div>
+    <div class="span6">
+      <form class="form-horizontal" />
+        <div class="control-group">
+          <label for="username" class="control-label">Username</label>
+          <div class="controls">
+            <input id="username" type="text" placeholder="Username" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="bio" class="control-label">Bio</label>
+          <div class="controls">
+            <textarea id="bio"></textarea>
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="desc" class="control-label">Description</label>
+          <div class="controls">
+            <textarea id="desc"></textarea>
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="admincode" class="control-label">Admin Code</label>
+          <div class="controls">
+            <input id="admincode" type="text" placeholder="xxxxx" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="phone" class="control-label">Phone</label>
+          <div class="controls">
+            <input id="phone" type="text" placeholder="(xxx)-xxx-xxxx" />
+          </div>
+        </div>
+        <div class="control-group"> 
+          <div class="controls">
+            <button type="submit" class="btn">Save Changes</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="span6">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit lobortis 
+        eros, quis convallis diam laoreet sit amet. Duis dapibus lacinia ornare. Class aptent 
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      </p>
+    </div>
+    <div class="span12 settings-group">
+      <h4 class="header">Other Accounts</h4>
+    </div>
+    <div class="span6">
+      <form class="form-horizontal" />
+        <div class="control-group">
+          <label for="ga" class="control-label">Google Analytics</label>
+          <div class="controls">
+            <input id="ga" type="text" placeholder="xxxxxxxxxxx" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="twitter" class="control-label">Twitter </label>
+          <div class="controls">
+            <input id="twitter" type="text" placeholder="freelanceleague" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="facebook" class="control-label">Facebook</label>
+          <div class="controls">
+            <input id="facebook" type="text" placeholder="freelanceleague" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="gp" class="control-label">Google+</label>
+          <div class="controls">
+            <input id="gp" type="text" placeholder="freelanceleague" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="pinterest" class="control-label">Pinterest </label>
+          <div class="controls">
+            <input id="pinterest" type="text" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="dribbble" class="control-label">Dribbble</label>
+          <div class="controls">
+            <input id="dribbble" type="text" />
+          </div>
+        </div>
+        <div class="control-group"> 
+          <div class="controls">
+            <button type="submit" class="btn">Save Changes</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="span6">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit lobortis 
+        eros, quis convallis diam laoreet sit amet. Duis dapibus lacinia ornare. Class aptent 
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit lobortis 
+        eros, quis convallis diam laoreet sit amet. Duis dapibus lacinia ornare. Class aptent 
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      </p>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>

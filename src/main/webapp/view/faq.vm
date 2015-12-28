@@ -1,0 +1,85 @@
+<div class="page">
+      <div class="page-container">
+<div class="container faq">
+  <div class="row">
+    <div class="span9">
+      <h4 class="header">FAQ</h4>
+      <div class="qa">
+        <h4> <a href="#">How do I add a new user?</a></h4><a href="#" class="tag">admin </a><a href="#" class="tag">database </a><a href="#" class="tag">debug </a><a href="#" class="tag">charts </a><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables</a>
+        <p>
+          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
+          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim.
+        </p>
+      </div>
+      <div class="qa">
+        <h4> <a href="#">How do I edit the administrator privileges?</a></h4><a href="#" class="tag">debug </a><a href="#" class="tag">charts </a><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables</a>
+        <p>
+          Fusce bibendum tellus eget ante 
+          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim.
+        </p>
+        <p>
+          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
+          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim.
+        </p>
+      </div>
+      <div class="qa">
+        <h4> <a href="#">What should I do if the server goes down?</a></h4><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables</a>
+        <p>
+          Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim. Nunc nec erat quam, et 
+          egestas nunc. Fusce bibendum tellus eget ante 
+          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim.
+        </p>
+      </div>
+      <div class="qa">
+        <h4> <a href="#">How do I rake the database remotely?</a></h4>
+        <p>
+          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
+          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim.
+        </p><code>heroku run:detached rake db:migrate</code>
+      </div>
+      <div class="qa">
+        <h4> <a href="#">Help! I've lost all my data. What do I do?</a></h4><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables </a><a href="#" class="tag">debug </a><a href="#" class="tag">charts</a>
+        <p>
+          Hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim. Nunc nec erat quam, et 
+          egestas nunc. Fusce bibendum tellus eget ante. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Proin ut tellus a purus 
+          rutrum aliquet ut a leo.
+        </p>
+      </div>
+      <div class="qa">
+        <h4> <a href="#">What if my question isn't here?</a></h4>
+        <p>
+          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
+          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
+          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
+          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
+          velit ut dui congue nec lacinia urna dignissim.
+        </p>
+      </div>
+    </div>
+    <div class="span3">
+      <h4 class="header">Tags</h4><a href="#" class="tag">admin </a><a href="#" class="tag">database </a><a href="#" class="tag">debug </a><a href="#" class="tag">graphs </a><a href="#" class="tag">charts </a><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables </a><a href="#" class="tag">ui </a><a href="#" class="tag">navigation </a><a href="#" class="tag">menus </a><a href="#" class="tag">mongodb </a><a href="#" class="tag">rubyonrails </a>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
