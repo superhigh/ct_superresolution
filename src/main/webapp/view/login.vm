@@ -21,7 +21,7 @@
             </div>
           </div>
           <div class="control-group"> 
-            <div class="controls"><input  type="submit" class="btn" value="Login"></input><a  href="register"    >  Sign up </input></div>
+            <div class="controls"><input  type="submit" class="btn" value="Login"></input><a href="register">  Sign up</a></div>
 			
           </div>
         </form>

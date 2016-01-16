@@ -26,7 +26,7 @@
 
 
 	<!-- oracle configuration -->
-	<bean id="baseDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		<bean id="baseDataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="${mysql.driverClassName}" />
 		<property name="url" value="${mysql.url}" />
@@ -58,21 +58,33 @@
 	<!-- define the SqlSessionFactory -->
 	<bean id="sqlSessionFactoryUser" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="baseDataSource" />
-		<property name="mapperLocations" value="classpath:config/map/*.xml" />
+		<property name="mapperLocations" value="classpath:config/map/UserMapper.xml" />
 		<property name="configLocation"
 			value="classpath:config/MyBatis-User-Configuration.xml" />
+	</bean>
+
+	<bean id="sqlSessionFactoryImage" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="baseDataSource" />
+		<property name="mapperLocations" value="classpath:config/map/ImageMapper.xml" />
+		<property name="configLocation" value="classpath:config/MyBatis-Image-Configuration.xml" />
 	</bean>
 	
 	<!-- DAO Mapper 层 -->
 	<bean id="baseMapperUser" class="org.mybatis.spring.mapper.MapperFactoryBean"
 		abstract="true" lazy-init="true">
-		<property name="sqlSessionFactory" ref="sqlSessionFactoryUser" />
 	</bean>
 	
 	<bean id="userMapper" parent="baseMapperUser">
 		<property name="mapperInterface"
 			value="com.lm.mapping.UserMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactoryUser" />
 	</bean>
+	<bean id="imageMapper" parent="baseMapperUser">
+		<property name="mapperInterface"
+				  value="com.lm.mapping.ImageMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactoryImage" />
+	</bean>
+
 
 
 	<!-- Service层 -->
@@ -80,5 +92,10 @@
 		class="com.lm.service.impl.UserServiceImpl">
 		<property name="userMapper" ref="userMapper" />
 	</bean>
+	<bean id="imageService"
+		  class="com.lm.service.impl.ImageServiceImpl">
+		<property name="imageMapper" ref="imageMapper" />
+	</bean>
+
 
 </beans>

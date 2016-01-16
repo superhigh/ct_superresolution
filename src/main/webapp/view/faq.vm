@@ -1,85 +1,90 @@
-<div class="page">
-      <div class="page-container">
-<div class="container faq">
-  <div class="row">
-    <div class="span9">
-      <h4 class="header">FAQ</h4>
-      <div class="qa">
-        <h4> <a href="#">How do I add a new user?</a></h4><a href="#" class="tag">admin </a><a href="#" class="tag">database </a><a href="#" class="tag">debug </a><a href="#" class="tag">charts </a><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables</a>
-        <p>
-          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
-          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim.
-        </p>
-      </div>
-      <div class="qa">
-        <h4> <a href="#">How do I edit the administrator privileges?</a></h4><a href="#" class="tag">debug </a><a href="#" class="tag">charts </a><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables</a>
-        <p>
-          Fusce bibendum tellus eget ante 
-          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim.
-        </p>
-        <p>
-          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
-          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim.
-        </p>
-      </div>
-      <div class="qa">
-        <h4> <a href="#">What should I do if the server goes down?</a></h4><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables</a>
-        <p>
-          Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim. Nunc nec erat quam, et 
-          egestas nunc. Fusce bibendum tellus eget ante 
-          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim.
-        </p>
-      </div>
-      <div class="qa">
-        <h4> <a href="#">How do I rake the database remotely?</a></h4>
-        <p>
-          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
-          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim.
-        </p><code>heroku run:detached rake db:migrate</code>
-      </div>
-      <div class="qa">
-        <h4> <a href="#">Help! I've lost all my data. What do I do?</a></h4><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables </a><a href="#" class="tag">debug </a><a href="#" class="tag">charts</a>
-        <p>
-          Hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim. Nunc nec erat quam, et 
-          egestas nunc. Fusce bibendum tellus eget ante. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Proin ut tellus a purus 
-          rutrum aliquet ut a leo.
-        </p>
-      </div>
-      <div class="qa">
-        <h4> <a href="#">What if my question isn't here?</a></h4>
-        <p>
-          Nunc nec erat quam, et egestas nunc. Fusce bibendum tellus eget ante 
-          hendrerit laoreet. Nulla id felis diam, in feugiat nisi. Nulla id nibh 
-          sit amet felis lobortis imperdiet nec quis diam. Proin ut tellus a purus 
-          rutrum aliquet ut a leo. Phasellus eu sollicitudin nibh. Quisque porttitor 
-          velit ut dui congue nec lacinia urna dignissim.
-        </p>
-      </div>
+<style type="text/css">
+    html,body,div,p,fieldset,input,button,input,h1,h2,h3,fieldset,form{margin:0;padding:0;}
+    fieldset,img{border:0;}
+    legend{display:none;}
+    em{font-style:normal;}
+    body{text-align:left;font:13px/2 \5FAE\8F6F\96C5\9ED1,Tahoma,Helvetica,Arial,\5B8B\4F53,sans-serif;color:#707070;background-color:#FFFFFF}
+    .header{margin-top:128px}
+    .header .cont{position:relative;height:78px;padding-left:512px;width:423px;}
+    .header h2{position:absolute;top:0;font-size:14px;color:#898989}
+    .header h1{padding-top:28px;font-size:24px;color:#323232;}
+    #upload_form{
+        position:relative;height:40px;padding-left:512px;width:423px;}
+</style>
+    <link href="css/uploadify.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.uploadify.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        $(function () {
+            $('#file_upload').uploadify({
+                //是否自动上传
+                'auto': false,
+                'multi':true,
+                //超时时间
+                'successTimeout': 99999,
+                //上传文件的大小限制
+                'fileSizeLimit': '2GB',
+                'queueSizeLimit': 5,
+                'uploader': 'image/upload',
+                //传递参数给上面uploader处理程序
+                'formData': {
+                    'username': 'zjubfd',
+                    'userpwd': '123456'
+                },
+                'swf': 'swf/uploadify.swf',
+                'buttonImage': 'img/browse-btn.png',
+                //上传文件选择按钮的高度
+                'height': 30,
+                //上传文件选择按钮的宽度
+                'width': 120,
+                //文件选择后的容器ID
+                'queueID': 'queue',
+                //在浏览窗口底部的文件类型下拉菜单中显示的文本
+                'fileTypeDesc': '支持的格式：',
+                //允许上传的文件后缀
+                'fileTypeExts': '*.tif;*.jpg;*.jpeg;*.gif;*.png;*.bmp',
+                'onSelectError': function (file, errorCode, errorMsg) {
+                    switch (errorCode) {
+                        case -100:
+                            alert("上传的文件数量已经超出系统限制的" + jQuery('#file_upload').uploadify('settings', 'queueSizeLimit') + "个文件！");
+                            break;
+                        case -110:
+                            alert("文件 [" + file.name + "] 大小超出系统限制的" + jQuery('#file_upload').uploadify('settings', 'fileSizeLimit') + "大小！");
+                            break;
+                        case -120:
+                            alert("文件 [" + file.name + "] 大小异常！");
+                            break;
+                        case -130:
+                            alert("文件 [" + file.name + "] 类型不正确！");
+                            break;
+                    }
+                },
+                'onClearQueue': function (queueItemCount) {
+                    alert("取消上传");
+                    return;
+                },
+                'onQueueComplete': function (queueData) {
+                    alert("文件上传成功！");
+                    return;
+                }
+            });
+        });
+    </script>
+    <div class="header">
+        <div class="cont">
+            <h1>ct图像上传</h1><h2>上传ct图像，方便快捷</h2>
+        </div>
     </div>
-    <div class="span3">
-      <h4 class="header">Tags</h4><a href="#" class="tag">admin </a><a href="#" class="tag">database </a><a href="#" class="tag">debug </a><a href="#" class="tag">graphs </a><a href="#" class="tag">charts </a><a href="#" class="tag">config </a><a href="#" class="tag">dashboard </a><a href="#" class="tag">tables </a><a href="#" class="tag">ui </a><a href="#" class="tag">navigation </a><a href="#" class="tag">menus </a><a href="#" class="tag">mongodb </a><a href="#" class="tag">rubyonrails </a>
-    </div>
-  </div>
+<div id="queue">
 </div>
-      </div>
-    </div>
+<div>
+    <p id="upload_form">
+        <input id="file_upload" name="file_upload" type="file" multiple="true" />
+
+        <a style=" text-decoration:none;" href="javascript:jQuery('#file_upload').uploadify('upload','*')" id="a_upload"
+           name="a_upload">&nbsp;&nbsp;上传&nbsp;&nbsp;</a>
+        <a style=" text-decoration:none;"  href="javascript:jQuery('#file_upload').uploadify('stop')" id="a_stop" name="a_stop">&nbsp;&nbsp;暂停&nbsp;&nbsp;</a>
+        <a style=" text-decoration:none;"  href="javascript:jQuery('#file_upload').uploadify('cancel','*')" id="a_cancel"
+           name="a_cancel">取消所有上传</a>
+    </p>
+</div>

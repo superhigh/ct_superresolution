@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
     http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-	
-	
+
+
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:config/applicationContext-user.xml</param-value>
 	</context-param>
-	
+
 	<filter>
 		<description>字符集过滤器</description>
 		<filter-name>encodingFilter</filter-name>

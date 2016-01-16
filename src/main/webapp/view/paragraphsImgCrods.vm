@@ -1,0 +1,8 @@
+<div>
+    <img src="" id="img" />
+
+    #set($layout="common/empty.vm")
+</div>
+<script type="text/javascript">
+        document.getElementById('img').src="imshow?"+Math.random()
+</script>

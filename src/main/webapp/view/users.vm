@@ -7,21 +7,22 @@
       <table class="table table-striped sortable">
         <thead>
           <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
-            <th>Username</th>
-            <th>Status</th>
-            <th>Date Joined</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>邮件</th>
+            <th>授权人</th>
+            <th>身份</th>
+            <th>加入时间</th>
+            <th>选择CT</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>John</td>
-            <td>Smith</td>
+            <td>测试用户1</td>
+            <td>男</td>
             <td>jsmith@yahoo.com</td>
-            <td>jsmith</td>
-            <td><span class="label label-success">Active</span></td>
+            <td>zjubfd</td>
+            <td><span class="label label-success">医生</span></td>
             <td>2012-04-14</td>
             <td>
               <div class="btn-group">
@@ -34,11 +35,11 @@
             </td>
           </tr>
           <tr>
-            <td>Susan</td>
-            <td>Mestas</td>
+            <td>测试用户2</td>
+            <td>女</td>
             <td>sm1268@gmail.com</td>
-            <td>maestromestas</td>
-            <td><span class="label">Inactive</span></td>
+            <td>zjubfd</td>
+            <td><span class="label">病人</span></td>
             <td>2012-01-02</td>
             <td>
               <div class="btn-group">
@@ -51,11 +52,11 @@
             </td>
           </tr>
           <tr>
-            <td>Robert</td>
-            <td>Jetton</td>
+            <td>测试用户3</td>
+            <td>男</td>
             <td>robbyjet@gmail.com</td>
-            <td>jetsetrob</td>
-            <td><span class="label label-inverse">Admin</span></td>
+            <td>zjubfd</td>
+            <td><span class="label">病人</span></td>
             <td>2011-11-12</td>
             <td>
               <div class="btn-group">
@@ -68,11 +69,11 @@
             </td>
           </tr>
           <tr>
-            <td>Kristen</td>
-            <td>Heck</td>
+            <td>测试用户4</td>
+            <td>男</td>
             <td>kheck12@aol.com</td>
-            <td>heckofathrow</td>
-            <td><span class="label label-important">Banned</span></td>
+            <td>zjubfd</td>
+            <td><span class="label">病人</span></td>
             <td>2012-05-11</td>
             <td>
               <div class="btn-group">
@@ -85,11 +86,11 @@
             </td>
           </tr>
           <tr>
-            <td>Steve</td>
-            <td>McMullan</td>
+            <td>测试用户5</td>
+            <td>女</td>
             <td>steveymac@yahoo.com</td>
-            <td>orangeego</td>
-            <td><span class="label label-inverse">Admin</span></td>
+            <td>zjubfd</td>
+            <td><span class="label">病人</span></td>
             <td>2010-07-11</td>
             <td>
               <div class="btn-group">
@@ -102,11 +103,11 @@
             </td>
           </tr>
           <tr>
-            <td>Nicole</td>
-            <td>Brown</td>
+            <td>测试用户6</td>
+            <td>女</td>
             <td>nikkybrown@aol.com</td>
-            <td>nicolebrown</td>
-            <td><span class="label label-success">Active</span></td>
+            <td>zjubfd</td>
+            <td><span class="label label-success">病人</span></td>
             <td>2012-12-04</td>
             <td>
               <div class="btn-group">
@@ -119,11 +120,11 @@
             </td>
           </tr>
           <tr>
-            <td>Lynn</td>
-            <td>West</td>
+            <td>测试用户7</td>
+            <td>女</td>
             <td>lynnawest@dayrep.com</td>
-            <td>westlynn</td>
-            <td><span class="label label-success">Active</span></td>
+            <td>zjubfd</td>
+            <td><span class="label label-success">病人</span></td>
             <td>2011-03-11</td>
             <td>
               <div class="btn-group">
@@ -136,11 +137,11 @@
             </td>
           </tr>
           <tr>
-            <td>Debbie</td>
-            <td>Fava</td>
+            <td>测试用户8</td>
+            <td>男</td>
             <td>dfava69@teleworm.us</td>
-            <td>favadebs</td>
-            <td><span class="label">Inactive</span></td>
+            <td>zjubfd</td>
+            <td><span class="label">病人</span></td>
             <td>2012-11-02</td>
             <td>
               <div class="btn-group">
@@ -153,11 +154,11 @@
             </td>
           </tr>
           <tr>
-            <td>Abby</td>
-            <td>Zedler</td>
+            <td>测试用户9</td>
+            <td>女</td>
             <td>azed12@school.edu</td>
-            <td>azeds</td>
-            <td><span class="label">Inactive</span></td>
+            <td>zjubfd</td>
+            <td><span class="label">病人</span></td>
             <td>2010-11-02</td>
             <td>
               <div class="btn-group">
