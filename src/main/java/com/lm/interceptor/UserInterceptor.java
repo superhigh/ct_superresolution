@@ -36,10 +36,11 @@ public class UserInterceptor implements HandlerInterceptor{
 		String str = (String) request.getSession().getAttribute("ISLOGIN");
 		System.out.println(str);
 		if(str!=null && str.equals("TRUE")){
-			
+
 			return true;
 		}
 		response.sendRedirect("/ct/login");
 		return false;
+//		return true;
 	}
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lm.mapping.ImageMapper">
+    <resultMap id="imageEntityMapper" type="ImageEntity">
+        <id property="id" column="id" />
+        <result property="username" column="username" />
+        <result property="path" column="path" />
+    </resultMap>
+
+    <select id="getImageEntityById" parameterType="String" resultMap="imageEntityMapper">
+        select * from image where id=#{id}
+    </select>
+
+    <select id="getImageEntities" resultMap="imageEntityMapper">
+        select * from image
+    </select>
+
+    <insert id="insertImage" parameterType="com.lm.entity.ImageEntity" >
+        insert into image(id,username,path)
+        VALUES(#{id},#{username},#{path})
+    </insert>
+    <delete id="deleteImageEntitiesById" parameterType="String">
+        delete from image where id=#{id}
+    </delete>
+</mapper>

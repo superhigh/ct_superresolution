@@ -44,7 +44,7 @@ public class ImgUtils {
 //        graphics.setRenderingHint(RenderingHints.KEY_RENDERING,RenderingHints.VALUE_RENDER_QUALITY);
         ImageFilter filter=new ImageFilter();
         this.bufferedNew=filter.filter(bufferedImage);
-        ImageIO.write(bufferedNew,"bmp",new File("/home/hhur/m/a.bmp"));
+        ImageIO.write(bufferedNew,"bmp",new File("D://ct_image/a.bmp"));
 //       graphics.setRenderingHints(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
 //        this.bufferedImage=(BufferedImage)srcImage;
     }
